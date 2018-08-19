@@ -35,3 +35,51 @@ Available users will be:
 - userH@hans.com
 
 Access services using Postman / curl
+
+request payload:
+- /connect
+```json
+{
+  "friends":
+    [
+      "userA@hans.com",
+      "userB@hans.com"
+    ]
+}
+```
+- /list
+```json
+{
+  "email": "userA@hans.com"
+}
+```
+- /common
+```json
+{
+  "friends": [
+     "userA@hans.com",
+      "userC@hans.com"
+      ]
+}
+```
+- /subscribe
+```json
+{
+  "requestor": "userD@hans.com",
+  "target": "userA@hans.com"
+}
+```
+- /block
+```json
+{
+  "requestor": "userC@hans.com",
+  "target": "userA@hans.com"
+}
+```
+- /send
+```json
+{
+  "sender": "userA@hans.com",
+  "text": "Hi! userE@hans.com"
+}
+```
