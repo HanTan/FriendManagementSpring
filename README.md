@@ -18,6 +18,10 @@ Upon start, there will be a seeding process where 8 dummy data is pumped into th
 mvn clean install
 java -jar target/friends-management-0.0.1-SNAPSHOT.jar
 ```
+## Running Test
+```sh
+mvn test
+```
 
 ## How to use
 
