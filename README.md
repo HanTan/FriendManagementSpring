@@ -15,7 +15,8 @@ Upon start, there will be a seeding process where 8 dummy data is pumped into th
 ## Running application
 
 ```sh
-
+mvn clean install
+java -jar target/friends-management-0.0.1-SNAPSHOT.jar
 ```
 
 ## How to use
